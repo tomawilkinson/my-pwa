@@ -1,6 +1,6 @@
 if('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').then(function(sw){
-    console.log('Registration worked!');
+    console.log('Registration worked!'); 
   }).catch(function(sw) {
     console.log('Registration failed!');
   });
